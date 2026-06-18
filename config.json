@@ -1,0 +1,53 @@
+{
+  "name": "ByteReaper",
+  "version": "1.0.0",
+  "description": "二进制逆向工程平台 — 反汇编/反编译/恶意软件分析/游戏逆向，支持 PC + App 双端",
+  "author": "auauhack-prog",
+  "demo_url": "https://skill.600.im",
+  "engines": {
+    "disassemblers": ["ghidra", "ida-pro", "radare2", "capstone", "binary-ninja"],
+    "decompilers": ["ghidra", "ida-hex-rays", "angr-decompiler", "retdec"],
+    "debuggers": ["x64dbg", "lldb", "gdb", "frida"]
+  },
+  "platforms": {
+    "pc": ["windows_pe", "linux_elf", "macos_macho"],
+    "mobile": ["android_apk", "ios_ipa"],
+    "firmware": ["bare_metal", "uefi", "iot"]
+  },
+  "features": {
+    "disassembly": {
+      "architectures": ["x86", "x64", "ARM", "ARM64", "MIPS", "RISC-V"],
+      "output_formats": ["asm", "graph", "cfg"]
+    },
+    "decompilation": {
+      "target_languages": ["pseudo-c", "pseudo-python"],
+      "type_recovery": true,
+      "struct_identification": true
+    },
+    "malware_analysis": {
+      "crypto_detection": true,
+      "c2_protocol_analysis": true,
+      "evasion_technique_detection": true,
+      "string_analysis": true,
+      "import_table_analysis": true
+    },
+    "game_reverse": {
+      "memory_scanner": true,
+      "trainer_generation": true,
+      "anti_cheat_bypass": true,
+      "dll_injection_analysis": true
+    }
+  },
+  "modules": [
+    "多引擎反汇编",
+    "伪C代码反编译",
+    "密码学例程识别",
+    "C2协议分析",
+    "规避技术检测",
+    "导入表/字符串分析",
+    "控制流图生成",
+    "内存扫描与修改器",
+    "APK/IPA应用逆向",
+    "批量分析报告生成"
+  ]
+}

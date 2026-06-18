@@ -1,0 +1,12 @@
+*.pyc
+__pycache__/
+venv/
+.env
+*.cfg.dot
+*.report.md
+*.png
+!pc_software_design.png
+!web_admin_design.png
+!system_architecture.png
+!app_flow_design.png
+.DS_Store
