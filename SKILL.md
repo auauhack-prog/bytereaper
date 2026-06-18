@@ -1,3 +1,14 @@
+---
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 4d9e8b0103accc1c2b21a3cb9d38e445_7ba6c0ec6b3211f18805525400d9a7a1
+    ReservedCode1: RCzxJjuG4xg8WWT+y94B9hM5IbDMIc174oiRWu7XReQLDDs0LLWeklBz8+u6tS5+PHyXVnf3STbIu4DdPCddDeDgpwOp1fBmTqtbFOBaPHueEIi5aZ/fy32HnvXwhbjFZdnOiWzZkVgZ8yYT8jcpHU5EcyzWvAAxH3Fya7XCztdlYjEyEk0ZADXM3Wg=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 4d9e8b0103accc1c2b21a3cb9d38e445_7ba6c0ec6b3211f18805525400d9a7a1
+    ReservedCode2: RCzxJjuG4xg8WWT+y94B9hM5IbDMIc174oiRWu7XReQLDDs0LLWeklBz8+u6tS5+PHyXVnf3STbIu4DdPCddDeDgpwOp1fBmTqtbFOBaPHueEIi5aZ/fy32HnvXwhbjFZdnOiWzZkVgZ8yYT8jcpHU5EcyzWvAAxH3Fya7XCztdlYjEyEk0ZADXM3Wg=
+---
+
 # ByteReaper Skill — 二进制逆向工程专家
 
 # ByteReaper Skill — Binary Reverse Engineering Specialist
@@ -193,3 +204,4 @@ utils/
 ---
 
 *ByteReaper v1.0.0 — Reverse Engineering Platform*
+*（内容由AI生成，仅供参考）*
