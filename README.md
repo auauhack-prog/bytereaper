@@ -17,6 +17,14 @@ AIGC:
 
 Disassemble / Decompile / Malware Analysis / Game Reverse / Mini-Program Reverse / APK Extract | Universal Binary Analysis
 
+# ByteReaper — Платформа бинарного реверс-инжиниринга
+
+# ByteReaper — Plattform für Binäres Reverse Engineering
+
+Дизассемблирование / Декомпиляция / Анализ вредоносного ПО / Реверс игр / Реверс мини-программ / Извлечение APK | Универсальный бинарный анализ
+
+Disassemblieren / Dekompilieren / Malware-Analyse / Game Reverse Engineering / Mini-Programm Reverse Engineering / APK Extraktion | Universelle Binäranalyse
+
 ---
 
 ## 设计原型 / Design Prototypes
@@ -42,6 +50,18 @@ ByteReaper 是一个全能的二进制逆向工程平台，致力于为安全研
 本项目的核心理念是在汇编和伪 C 代码层面理解二进制文件的内部逻辑、密码学例程、C2 协议和规避技术。ByteReaper 集成了 Ghidra、IDA Pro、radare2、Capstone、Binary Ninja、angr、Frida 等业界顶尖的逆向工程工具，通过 LangGraph 9 节点流水线实现从二进制识别到综合报告生成的全自动化分析。平台支持 Windows PE、Linux ELF、macOS Mach-O、Android APK/AAB、iOS IPA 等全平台二进制格式，覆盖 x86、x64、ARM、ARM64、MIPS、RISC-V 等多种处理器架构。
 
 ByteReaper 的设计初衷是服务于学习与研究目的。我们相信，深入理解软件的内部运行机制是培养下一代安全工程师和逆向分析师的最佳途径。平台的每一项功能都配有详细的分析说明和伪代码输出，让初学者能够循序渐进地从汇编指令理解到高级语言逻辑还原，同时为资深分析师提供多引擎交叉验证和批量自动化分析能力。
+
+ByteReaper — это универсальная платформа бинарного реверс-инжиниринга, предназначенная для специалистов по безопасности, реверс-инженеров, участников CTF, энтузиастов игровой безопасности и разработчиков мобильных приложений, предоставляющая комплексное решение для дизассемблирования, декомпиляции и бинарного анализа. Независимо от того, нужно ли вам анализировать внутреннюю логику вредоносного ПО, понимать процедуры шифрования программ-вымогателей, реверсировать протоколы связи C2, обнаруживать техники обхода защиты, декомпилировать APK-приложения, извлекать игровые ресурсы, анализировать структуру исходного кода мини-программ Android или выполнять глубокий реверс-инжиниринг настольного ПО с генерацией псевдокода на C — ByteReaper эффективно решает все эти задачи в едином конвейере.
+
+Основная концепция проекта заключается в понимании внутренней логики, криптографических процедур, протоколов C2 и техник обхода защиты бинарных файлов на уровне ассемблера и псевдокода C. ByteReaper интегрирует ведущие инструменты реверс-инжиниринга, такие как Ghidra, IDA Pro, radare2, Capstone, Binary Ninja, angr и Frida, реализуя полностью автоматизированный анализ через 9-узловой конвейер LangGraph — от идентификации бинарного файла до генерации комплексного отчёта. Платформа поддерживает бинарные форматы всех основных платформ: Windows PE, Linux ELF, macOS Mach-O, Android APK/AAB, iOS IPA, и охватывает множество процессорных архитектур, включая x86, x64, ARM, ARM64, MIPS и RISC-V.
+
+ByteReaper изначально создан для образовательных и исследовательских целей. Мы убеждены, что глубокое понимание внутренних механизмов работы программного обеспечения — это лучший способ подготовить следующее поколение инженеров безопасности и реверс-аналитиков. Каждая функция платформы сопровождается подробными аналитическими пояснениями и выводом псевдокода, что позволяет новичкам постепенно продвигаться от понимания ассемблерных инструкций к восстановлению высокоуровневой логики, а опытным аналитикам предоставляет возможности кросс-валидации на нескольких движках и пакетного автоматизированного анализа.
+
+ByteReaper ist eine universelle Plattform für binäres Reverse Engineering, die Sicherheitsforschern, Reverse Engineers, CTF-Teilnehmern, Game-Security-Enthusiasten und Entwicklern mobiler Anwendungen eine Komplettlösung für Disassemblierung, Dekompilierung und Binäranalyse bietet. Ob Sie die interne Logik von Malware analysieren, die Verschlüsselungsroutinen von Ransomware verstehen, C2-Kommunikationsprotokolle reverse-engineeren, Evasion-Techniken erkennen, eine APK-Anwendung dekompilieren, Spielressourcen extrahieren, die Quellcodestruktur von Android-Mini-Programmen analysieren oder Desktop-Software tiefgehend reverse-engineeren und Pseudo-C-Code generieren möchten — ByteReaper erledigt all dies effizient in einer einheitlichen Pipeline.
+
+Das Kernkonzept des Projekts besteht darin, die interne Logik, kryptografische Routinen, C2-Protokolle und Evasion-Techniken von Binärdateien auf Assembler- und Pseudo-C-Ebene zu verstehen. ByteReaper integriert branchenführende Reverse-Engineering-Tools wie Ghidra, IDA Pro, radare2, Capstone, Binary Ninja, angr und Frida und realisiert eine vollautomatisierte Analyse durch eine 9-Knoten-LangGraph-Pipeline — von der Binäridentifikation bis zur umfassenden Berichterstellung. Die Plattform unterstützt plattformübergreifende Binärformate wie Windows PE, Linux ELF, macOS Mach-O, Android APK/AAB und iOS IPA und deckt zahlreiche Prozessorarchitekturen ab, darunter x86, x64, ARM, ARM64, MIPS und RISC-V.
+
+ByteReaper wurde ursprünglich für Lern- und Forschungszwecke entwickelt. Wir sind überzeugt, dass ein tiefes Verständnis der internen Funktionsweise von Software der beste Weg ist, die nächste Generation von Sicherheitsingenieuren und Reverse-Analysten auszubilden. Jede Funktion der Plattform wird von detaillierten Analyseerklärungen und Pseudo-Code-Ausgaben begleitet, sodass Anfänger schrittweise vom Verständnis der Assembler-Anweisungen zur Wiederherstellung der Hochsprachenlogik fortschreiten können, während erfahrene Analysten von der Multi-Engine-Kreuzvalidierung und der automatisierten Batch-Analyse profitieren.
 
 ---
 
@@ -495,6 +515,21 @@ ByteReaper 不仅是安全研究人员的利器，更是面向各行业软件生
 | **合规审计支撑** | 医疗/汽车/金融 | 满足 FDA/NMPA/UNECE WP.29 等法规的 SBOM 要求 |
 | **竞争情报研究** | 电商/游戏/软件 | 合法学习竞品技术方案（仅限研究目的） |
 | **数字取证支持** | 法律/司法鉴定 | 电子证据提取与分析，支持法庭质证 |
+
+---
+
+## 联系作者 / Contact Author / Контакты / Kontakt
+
+- **官网 / Website**: [https://skill.600.im](https://skill.600.im)
+- **定制开发**: 需要定制逆向工程工具/私有部署/行业解决方案？联系作者获取商业授权与技术咨询
+- **Custom Development**: Need custom reverse engineering tools / private deployment / industry solutions? Contact the author for commercial licensing and technical consulting
+- **Индивидуальная разработка**: Нужны инструменты реверс-инжиниринга / приватное развертывание / отраслевые решения? Свяжитесь с автором
+- **Maßgeschneiderte Entwicklung**: Brauchen Sie Reverse-Engineering-Tools / private Bereitstellung / Branchenlösungen? Kontaktieren Sie den Autor
+
+- **功能开发**: 有功能需求或平台定制需求？欢迎联系讨论
+- **Feature Requests**: Have feature requests or platform customization needs? Reach out for discussion
+- **Запросы функций**: Есть запросы на функции? Свяжитесь для обсуждения
+- **Funktionswünsche**: Haben Sie Funktionswünsche? Kontaktieren Sie uns
 
 ---
 
